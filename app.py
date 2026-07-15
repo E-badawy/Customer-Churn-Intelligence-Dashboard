@@ -188,7 +188,7 @@ if page == "Dashboard":
 
     st.plotly_chart(
         fig,
-        use_container_width=True
+        width=True
     )
 
 
@@ -503,7 +503,7 @@ elif page == "Model Insights":
 
     st.plotly_chart(
         fig,
-        use_container_width=True
+        width=True
     )
 
 
@@ -543,7 +543,7 @@ elif page == "Model Insights":
 
     st.plotly_chart(
         fig2,
-        use_container_width=True
+        width=True
     )
 
 
